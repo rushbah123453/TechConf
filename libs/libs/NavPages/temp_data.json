@@ -1,0 +1,37 @@
+[
+  {
+    "tech":"A",
+    "category": "Automation",
+    "topic":"Pattern Recognition  ",
+     "desc":"How PR is changing the AI world",
+     "time":"09 am \n|\n 10 am",
+     "count_audience":"45",
+    "location":"9th floor, Raman",
+    "long_descr": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "speaker_name":"Paul Ohio"
+  },
+
+  {
+    "tech":"B",
+    "category": "Unbundling",
+    "topic":"Unbundling ",
+    "desc":"Seek the benefits unbundling ",
+    "time":"10 am \n|\n 11 am",
+    "count_audience":"100",
+    "location":"8th floor, Chakan",
+    "long_descr": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "speaker_name":"Neuman Ohio"
+  },
+
+  {
+    "tech":"C",
+    "category": "Cloud",
+    "topic":"Microsoft Azure Cloud ",
+    "desc":"UBS and the Azure world ",
+    "time":"01 pm \n|\n 02 pm",
+    "count_audience":"100",
+    "location":"7th floor, Ganga",
+    "long_descr": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "speaker_name":"Paulo Shinman"
+  }
+]

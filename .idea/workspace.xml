@@ -6,14 +6,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9465489a-3272-4a21-bcb8-10e032bd494f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/NavPages/event.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/NavPages/fetchScheduleData.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/NavPages/session_page.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/NavPages/slide_right_transition.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/NavPages/temp_data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/NavPages/location.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/NavPages/location.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/home_navbar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/home_navbar.dart" afterDir="false" />
+    <list default="true" id="9465489a-3272-4a21-bcb8-10e032bd494f" name="Default" comment="....">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -40,7 +34,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home_navbar.dart" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home_navbar.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/home_navbar.dart">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="159">
@@ -61,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="location.dart" pinned="false" current-in-tab="false">
+      <file leaf-file-name="location.dart" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/NavPages/location.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="22" />
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#1#11#0" expanded="true" />
               </folding>
@@ -162,11 +156,11 @@
         <option value="$PROJECT_DIR$/lib/profile/profilepage.dart" />
         <option value="$PROJECT_DIR$/lib/main.dart" />
         <option value="$PROJECT_DIR$/lib/login_page.dart" />
-        <option value="$PROJECT_DIR$/lib/NavPages/location.dart" />
         <option value="$PROJECT_DIR$/lib/NavPages/event.dart" />
         <option value="$PROJECT_DIR$/lib/NavPages/fetchScheduleData.dart" />
         <option value="$PROJECT_DIR$/lib/NavPages/session_page.dart" />
         <option value="$PROJECT_DIR$/lib/home_navbar.dart" />
+        <option value="$PROJECT_DIR$/lib/NavPages/location.dart" />
       </list>
     </option>
   </component>
@@ -332,6 +326,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" />
       <window_info id="Build Variants" order="2" side_tool="true" />
@@ -375,6 +370,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_NEW_TODO" value="false" />
+    <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
     <MESSAGE value="HomeScreen" />
     <MESSAGE value="...." />
     <option name="LAST_COMMIT_MESSAGE" value="...." />
@@ -511,16 +507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/NavPages/location.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="22" />
-          <folding>
-            <element signature="e#1#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/NavPages/slide_right_transition.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state />
@@ -539,6 +525,16 @@
           <caret line="94" column="3" selection-start-line="94" selection-start-column="3" selection-end-line="94" selection-end-column="3" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/NavPages/location.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#1#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
