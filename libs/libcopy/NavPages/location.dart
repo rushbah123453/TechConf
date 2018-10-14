@@ -10,12 +10,12 @@ class FullDaySchedule extends StatelessWidget {
         length: 2,
         child: Scaffold(
           appBar: AppBar(
-            backgroundColor: Colors.teal,
+            backgroundColor: Colors.lightBlueAccent,
             bottom: TabBar(
-              indicatorColor: Colors.teal,
+              indicatorColor: Colors.blue,
 
               tabs: [
-                Tab(text:"Day 1:"),
+                Tab(text:"Day 1"),
                 Tab(text:"Day 2"),
 
               ],
@@ -66,6 +66,7 @@ class DataForDay extends StatelessWidget
 
               child:
               new Column(
+
                 children: <Widget>[
 
                   new Event(e: new EventParams(
@@ -80,7 +81,8 @@ class DataForDay extends StatelessWidget
                       "Paulo Shinman",
                       "Speaker detailed Info",
                       "Co-speaker name",
-                      "details of co-speaker")),
+                      "details of co-speaker")
+                  ),
                   new Event(e: new EventParams(
                       "A",
                       "VCI",

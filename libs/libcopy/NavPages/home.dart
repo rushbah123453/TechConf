@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import './countdown.dart';
 
 class Home extends StatelessWidget {
 
@@ -13,10 +14,7 @@ class Home extends StatelessWidget {
         child: new Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            new Text(
-              listType,
-              style: Theme.of(context).textTheme.display1,
-            ),
+            new FlipClockPage(),
           ],
         ),
       ),

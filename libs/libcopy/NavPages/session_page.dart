@@ -43,7 +43,7 @@ class SessionDetails extends StatelessWidget {
         return new Container(
 
           child:new Card(
-              color: Colors.teal[100],
+              color: Colors.white,
             child:Padding(
 
             padding: const EdgeInsets.all(35.0),
@@ -85,7 +85,7 @@ class SessionDetails extends StatelessWidget {
 
                       style: TextStyle(
                         fontSize: 18.0,
-                        color: Colors.teal[500],
+                        color: Colors.lightBlue,
                       ),
                     ),),
                   new Text(
@@ -118,7 +118,7 @@ class SessionDetails extends StatelessWidget {
 
                       style: TextStyle(
                         fontSize: 18.0,
-                        color: Colors.teal[500],
+                        color: Colors.lightBlue,
                       ),
                     )),
 
@@ -143,7 +143,7 @@ class SessionDetails extends StatelessWidget {
     }
 
     Container buildButtonColumn(IconData icon, String label,String i) {
-      Color color = Colors.teal[800];
+      Color color = Colors.black;
 
       return
         new Container(
@@ -218,7 +218,7 @@ class SessionDetails extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
-                  buildRowCellTitle(Icons.assignment_ind,'  '+e.speaker_name,Colors.teal[800]),
+                  buildRowCellTitle(Icons.assignment_ind,'  '+e.speaker_name,Colors.grey),
                   //buildRowCellTitle(Icons.people,'   41',Colors.teal[800]),
 
                   Padding(
@@ -227,7 +227,7 @@ class SessionDetails extends StatelessWidget {
                         children:[Icon(
                           Icons.people,
                         size: 35.0,
-                        color:Colors.teal[800],
+                        color:Colors.grey,
                         ),
                         Text('   '+e.count_audience,style: TextStyle(fontSize: 15.0))
                         ]
@@ -238,8 +238,8 @@ class SessionDetails extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
-                  buildRowCellTitle(Icons.room,'  '+e.location,Colors.red[800]),
-                  buildRowCellTitle(Icons.av_timer,e.time.replaceAll("\n|\n", "-"),Colors.red[800]),
+                  buildRowCellTitle(Icons.room,'  '+e.location,Colors.grey),
+                  buildRowCellTitle(Icons.av_timer,e.time.replaceAll("\n|\n", "-"),Colors.grey),
                 ],
               )
 
@@ -306,7 +306,7 @@ class SessionDetails extends StatelessWidget {
   return Scaffold(
       appBar: AppBar(
         title: Text('Details'),
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.lightBlueAccent,
       ),
       body: ListView(
         children: [
@@ -318,8 +318,9 @@ class SessionDetails extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.only(left:20.0),
                 child:new Chip(
+                  backgroundColor: Colors.white,
                   avatar: new CircleAvatar(
-                    backgroundColor: Colors.teal,
+                    backgroundColor: Colors.lightBlue,
                     child: new Text(e.tech,style: new TextStyle(fontWeight: FontWeight.bold,color: Colors.white)),
                   ),
                   label: new Text(e.category,textScaleFactor: 1.2,style: new TextStyle(fontWeight: FontWeight.bold)),

@@ -23,31 +23,29 @@ class _MyHomePageState extends State<MyHomePage> {
     return new Scaffold(
         body: new Stack(
           children: <Widget>[
-            ClipPath(
-              child: Container(color: Colors.black.withOpacity(0.8)),
-              clipper: getClipper(),
-            ),
-            Positioned(
-                width: 350.0,
-                top: MediaQuery.of(context).size.height / 5,
+
+            Center(
+
                 child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
                   children: <Widget>[
                     Container(
-                        width: 150.0,
-                        height: 150.0,
+                        width: 120.0,
+                        height: 120.0,
                         decoration: BoxDecoration(
-                            color: Colors.red,
+                            color: Colors.grey,
                             image: DecorationImage(
                                 image: NetworkImage(
-                                    'https://pixel.nymag.com/imgs/daily/vulture/2017/06/14/14-tom-cruise.w700.h700.jpg'),
+                                    'https://i.pinimg.com/originals/56/f0/c7/56f0c7de57fdae6d0a9ddc43448b6dff.png'),
                                 fit: BoxFit.cover),
                             borderRadius: BorderRadius.all(Radius.circular(75.0)),
                             boxShadow: [
                               BoxShadow(blurRadius: 7.0, color: Colors.black)
                             ])),
-                    SizedBox(height: 90.0),
+                    SizedBox(height: 70.0),
                     Text(
-                      'Tom Cruise',
+                      'Rushabh Oswal',
                       style: TextStyle(
                           fontSize: 30.0,
                           fontWeight: FontWeight.bold,
@@ -55,7 +53,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     SizedBox(height: 15.0),
                     Text(
-                      'devconteam@abcd.com',
+                      'techconfteam@abcd.com',
                       style: TextStyle(
                           fontSize: 17.0,
                           fontStyle: FontStyle.italic,

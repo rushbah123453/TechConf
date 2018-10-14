@@ -75,8 +75,8 @@ class _DashboardScreenState extends State<DashboardScreen> {
         children: [
           new Home("Home screen"),
           new FullDaySchedule(),
-          new Friends("Speakers screen"),
-          new Friends("Treding  screen"),
+
+          new Friends("Trending  screen"),
           //new Location("Trending screen"),
           new ProfilePag(),
         ],
@@ -93,8 +93,13 @@ class _DashboardScreenState extends State<DashboardScreen> {
             new BottomNavigationBarItem(
                 icon: new Icon(
                      Icons.home,
-                  color: Colors.black,
-                ),
+                  color: Colors.grey,
+
+                ),activeIcon: new Icon(
+
+              Icons.home,
+              color: Colors.black
+            ),
                 title: new Text(
                   "Home",
                   style: new TextStyle(
@@ -104,21 +109,14 @@ class _DashboardScreenState extends State<DashboardScreen> {
             new BottomNavigationBarItem(
                 icon: new Icon(
                   Icons.calendar_today,
-                  color: Colors.black,
-                ),
+                  color: Colors.grey,
+                ),activeIcon: new Icon(
+
+                Icons.calendar_today,
+                color: Colors.black
+            ),
                 title: new Text(
                   "Schedule",
-                  style: new TextStyle(
-                    color: Colors.black,
-                  ),
-                )),
-            new BottomNavigationBarItem(
-                icon: new Icon(
-                  Icons.mic,
-                  color: Colors.black,
-                ),
-                title: new Text(
-                  "Speakers",
                   style: new TextStyle(
                     color: Colors.black,
                   ),
@@ -128,8 +126,12 @@ class _DashboardScreenState extends State<DashboardScreen> {
             new BottomNavigationBarItem(
                 icon: new Icon(
                   Icons.trending_up,
-                  color: Colors.black,
-                ),
+                  color: Colors.grey,
+                ),activeIcon: new Icon(
+
+                Icons.trending_up,
+                color: Colors.black
+            ),
                 title: new Text(
                   "Trending",
                   style: new TextStyle(
@@ -139,8 +141,12 @@ class _DashboardScreenState extends State<DashboardScreen> {
             new BottomNavigationBarItem(
                 icon: new Icon(
                   Icons.person,
-                  color: Colors.black,
-                ),
+                  color: Colors.grey,
+                ),activeIcon: new Icon(
+
+                Icons.person,
+                color: Colors.black
+            ),
                 title: new Text(
                   "Profile",
                   style: new TextStyle(

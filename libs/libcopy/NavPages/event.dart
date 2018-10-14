@@ -32,6 +32,7 @@ class Event extends StatelessWidget
     // TODO: implement build
     return
       new Card(
+        color: Colors.white,
         child:new GestureDetector(
           onTap: (){
 
@@ -44,6 +45,7 @@ class Event extends StatelessWidget
              },
           child: new Row(
 
+
           mainAxisSize: MainAxisSize.min,
           children: <Widget>[
             new Expanded(
@@ -55,6 +57,7 @@ class Event extends StatelessWidget
                 mainAxisSize: MainAxisSize.min,
                 //crossAxisAlignment: CrossAxisAlignment.center,
                 children: <Widget>[
+
                   new Text(e.time,textAlign: TextAlign.center,textScaleFactor: 1.2,style: new TextStyle(fontWeight: FontWeight.bold)),
                 ],
               ),
@@ -66,10 +69,11 @@ class Event extends StatelessWidget
               child: new Container(
 
                 padding: const EdgeInsets.all(8.0),
-                color: Colors.black12,
+                color: Colors.white,
 
                 margin: const EdgeInsets.all(12.0),
                 child:
+
                 new Column(
 
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -80,10 +84,11 @@ class Event extends StatelessWidget
 
                           avatar: new CircleAvatar(
 
-                            backgroundColor: Colors.teal,
+                            backgroundColor: Colors.lightBlueAccent,
                             child: new Text(e.tech,style: new TextStyle(fontWeight: FontWeight.bold,color: Colors.white)),
                           ),
-                          label: new Text(e.topic,textScaleFactor: 1.2,style: new TextStyle(fontWeight: FontWeight.bold)),
+                          label: new Text(e.topic,textScaleFactor: 1.2,style: new TextStyle(fontWeight: FontWeight.bold,)),
+                          backgroundColor: Colors.white,
                         ),
 
 
